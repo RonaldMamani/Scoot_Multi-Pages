@@ -1,0 +1,23 @@
+<main class="relative">
+    <header class="
+        px-8 py-[22px] relative
+        ">
+        <nav class="relative">
+            <button class="absolute left-0 top-2" (click)="open = !open">
+                <img *ngIf="open" src="../../../assets/icons/close.svg" alt="">
+                <img *ngIf="!open" src="../../../assets/icons/hamburger.svg" alt="">
+            </button>
+            <div class="flex justify-center">
+                <img src="../../../assets/logo.svg" alt="Logotipo de Scoot">
+            </div>
+        </nav>
+    </header>
+    <nav class="absolute left-0 bg-[#333A44] w-[275px] h-[calc(100vh-73px)] px-8 pt-16" *ngIf="open">
+        <div class="flex flex-col gap-6">
+            <a routerLink="/" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">Home</a>
+            <a routerLink="/about" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">About</a>
+            <a routerLink="/careers" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">Careers</a>
+            <a routerLink="/locations" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">Locations</a>
+        </div>
+    </nav>
+</main>
