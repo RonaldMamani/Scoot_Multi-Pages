@@ -1,0 +1,54 @@
+<section class="px-8 py-[120px] flex flex-col gap-28">
+    <div class="flex flex-col gap-11">
+        <app-benefie-topic 
+            imageUrl="../../../assets/icons/locate.svg"
+            Benefie="Locate with app"
+            Descrition="Use the app to find the nearest scooter to you. We are continuously placing scooters in 
+            the areas with most demand, so one should never be too far away. "
+        />
+        <app-benefie-topic 
+            imageUrl="../../../assets/icons/scooter.svg"
+            Benefie="Pick your scooter"
+            Descrition="We show the most important info for the scooters closest to you. So you know how much charge 
+            they have left and can see roughly how much it will cost."
+        />
+        <app-benefie-topic 
+            imageUrl="../../../assets/icons/ride.svg"
+            Benefie="Enjoy the ride"
+            Descrition="Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re 
+            off! Always lock bikes away from walkways and accessibility ramps."
+        />
+    </div>
+    <div class="flex flex-col gap-28">
+        <div class="relative">
+            <app-benefie-detail 
+                imageUrl="../../../assets/images/telemetry.jpg"
+                DescritionImage="Image de pessoa com Celular"
+                TitleBenefie="Easy to use riding telemetry"
+                Descrition="The Scoot app is available with riding telemetry. This means it can show you your average speed, 
+                how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app."
+            />
+            <div class="absolute bg-[url('./assets/patterns/left-downward-arrow.svg')] bg-left -right-8 top-40 w-[350px] h-[150px]"></div>
+        </div>
+        <div class="relative">
+            <app-benefie-detail 
+                imageUrl="../../../assets/images/near-you.jpg"
+                DescritionImage="Image de avenida de carros com arvores em volta"
+                TitleBenefie="Coming to a city near you"
+                Descrition="Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if 
+                you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year."
+            />
+            <div class="absolute bg-[url('./assets/patterns/right-arrow.svg')] bg-right -left-8 top-0 w-[300px] h-[150px]"></div>
+        </div>
+        <div class="relative">
+            <app-benefie-detail 
+                imageUrl="../../../assets/images/payments.jpg"
+                DescritionImage="Image de saque de dinheiro"
+                TitleBenefie="Zero hassle payments"
+                Descrition="Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also 
+                link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month."
+            />
+            <div class="absolute bg-[url('./assets/patterns/left-downward-arrow.svg')] bg-left -right-8 top-0 w-[275px] h-[150px]"></div>
+        </div>
+    </div>
+</section>

@@ -1,32 +1,39 @@
 <footer>
     <div class="
-        bg-[#495567] h-[320px]
+        bg-[#495567] relative
     ">
-        <h4 class="text-white font-['Space Mono'] text-[32px] tracking-[-1.5px] font-bold">Sign up and Scoot off today</h4>
-        <div class="flex justify-center gap-3">
-            <img class="w-[115px]" src="../../../assets/icons/app-store.svg" alt="">
-            <img src="../../../assets/icons/google-play.svg" alt="">
+        <div class="px-8 py-[88px] text-center flex flex-col gap-10">
+            <h4 class="text-white font-['Space Mono'] text-[38px] tracking-[1.5px] font-bold">Sign up and Scoot off today</h4>
+            <div class="flex justify-center gap-3 px-[60px]">
+                <img class="w-[140px]" src="../../../assets/icons/app-store.svg" alt="">
+                <img class="w-[140px]" src="../../../assets/icons/google-play.svg" alt="">
+            </div>
         </div>
+        <div class="absolute bg-[url('./assets/patterns/semi-circles.svg')] bg-cover bg-center bg-no-repeat right-0 bottom-0 w-[800px] h-[160px]"></div>
     </div>
-    <div class="bg-[#333A44] py-16 flex flex-col">
+    <div class="bg-[#333A44] py-16 flex flex-col gap-11">
         <div class="flex justify-center">
             <img src="../../../assets/logo-white.svg" alt="">
         </div>
-        <div class="flex flex-col">
-            <a routerLink="/about" class="text-[#939CAA] font-['Space Mono'] text-sm font-bold">About</a>
-            <a routerLink="/locations" class="text-[#939CAA] font-['Space Mono'] text-sm font-bold">Location</a>
-            <a routerLink="/careers" class="text-[#939CAA] font-['Space Mono'] text-sm font-bold">Career</a>
-        </div>
-        <div class="flex justify-center gap-5">
-            <a href="#">
-                <img src="../../../assets/icons/facebook.svg" alt="">
-            </a>
-            <a href="#">
-                <img src="../../../assets/icons/twitter.svg" alt="">
-            </a>
-            <a href="#">
-                <img src="../../../assets/icons/instagram.svg" alt="">
-            </a>
+        <div class="flex flex-col gap-24">
+            <div class="flex justify-center">
+                <nav class="flex flex-col gap-4 text-center">
+                    <a routerLink="/about" class="text-[#939CAA] font-['Space Mono'] font-bold">About</a>
+                    <a routerLink="/locations" class="text-[#939CAA] font-['Space Mono'] font-bold">Location</a>
+                    <a routerLink="/careers" class="text-[#939CAA] font-['Space Mono'] font-bold">Career</a>
+                </nav>
+            </div>
+            <div class="flex justify-center gap-7 pb-6">
+                <a href="#">
+                    <img src="../../../assets/icons/facebook.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="../../../assets/icons/twitter.svg" alt="">
+                </a>
+                <a href="#">
+                    <img src="../../../assets/icons/instagram.svg" alt="">
+                </a>
+            </div>
         </div>
     </div>
 </footer>

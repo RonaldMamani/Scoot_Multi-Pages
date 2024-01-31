@@ -12,12 +12,15 @@
             </div>
         </nav>
     </header>
-    <nav class="absolute left-0 bg-[#333A44] w-[275px] h-[calc(100vh-73px)] px-8 pt-16" *ngIf="open">
+    <nav class="absolute z-20 left-0 bg-[#333A44] w-[275px] h-[calc(100vh-73px)] px-8 pt-16" *ngIf="open">
         <div class="flex flex-col gap-6">
             <a routerLink="/" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">Home</a>
             <a routerLink="/about" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">About</a>
             <a routerLink="/careers" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">Careers</a>
             <a routerLink="/locations" class="font-['Space Mono'] text-[#E5ECF4] text-lg font-bold">Locations</a>
         </div>
+        <button class="mt-96 bg-[#FCB72B] px-16 py-4">
+            <span class="text-white font-['Space Mono'] ">Get Scootin</span>
+        </button>
     </nav>
 </main>

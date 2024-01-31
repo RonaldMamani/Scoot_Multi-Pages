@@ -11,6 +11,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ButtonComponent } from './components/button/button.component';
 import { IntroComponent } from './components/intro/intro.component';
+import { BenefiesAppComponent } from './components/benefies-app/benefies-app.component';
+import { BenefieTopicComponent } from './components/benefie-topic/benefie-topic.component';
+import { BenefieDetailComponent } from './components/benefie-detail/benefie-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { IntroComponent } from './components/intro/intro.component';
     HeaderComponent,
     FooterComponent,
     ButtonComponent,
-    IntroComponent
+    IntroComponent,
+    BenefiesAppComponent,
+    BenefieTopicComponent,
+    BenefieDetailComponent
   ],
   imports: [
     BrowserModule,
