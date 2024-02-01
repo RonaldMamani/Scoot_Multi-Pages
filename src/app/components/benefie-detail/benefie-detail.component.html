@@ -8,8 +8,10 @@
     <div class="flex flex-col gap-8 text-center">
         <h6 class="text-[#495567] font-['Space Mono'] text-[38px] font-bold tracking-[1.5px]">{{TitleBenefie}}</h6>
         <p class="text-[#939CAA] font-['Lexend Deca']">{{Descrition}}</p>
-        <app-button 
-            content="Learn More"
-        />
+        <div *ngIf="ThereButton">
+            <app-button 
+                content="Learn More"
+            />
+        </div>
     </div>
 </div>

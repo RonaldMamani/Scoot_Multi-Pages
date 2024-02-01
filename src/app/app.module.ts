@@ -14,6 +14,9 @@ import { IntroComponent } from './components/intro/intro.component';
 import { BenefiesAppComponent } from './components/benefies-app/benefies-app.component';
 import { BenefieTopicComponent } from './components/benefie-topic/benefie-topic.component';
 import { BenefieDetailComponent } from './components/benefie-detail/benefie-detail.component';
+import { PageImageComponent } from './components/page-image/page-image.component';
+import { BenefiesAboutComponent } from './components/benefies-about/benefies-about.component';
+import { BenenfieNumerationComponent } from './components/benenfie-numeration/benenfie-numeration.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { BenefieDetailComponent } from './components/benefie-detail/benefie-deta
     IntroComponent,
     BenefiesAppComponent,
     BenefieTopicComponent,
-    BenefieDetailComponent
+    BenefieDetailComponent,
+    PageImageComponent,
+    BenefiesAboutComponent,
+    BenenfieNumerationComponent
   ],
   imports: [
     BrowserModule,
