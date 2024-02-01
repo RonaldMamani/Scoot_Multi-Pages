@@ -17,6 +17,8 @@ import { BenefieDetailComponent } from './components/benefie-detail/benefie-deta
 import { PageImageComponent } from './components/page-image/page-image.component';
 import { BenefiesAboutComponent } from './components/benefies-about/benefies-about.component';
 import { BenenfieNumerationComponent } from './components/benenfie-numeration/benenfie-numeration.component';
+import { FAQsComponent } from './components/faqs/faqs.component';
+import { ReadMoreComponent } from './components/read-more/read-more.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { BenenfieNumerationComponent } from './components/benenfie-numeration/be
     BenefieDetailComponent,
     PageImageComponent,
     BenefiesAboutComponent,
-    BenenfieNumerationComponent
+    BenenfieNumerationComponent,
+    FAQsComponent,
+    ReadMoreComponent
   ],
   imports: [
     BrowserModule,
