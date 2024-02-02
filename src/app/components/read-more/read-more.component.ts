@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-read-more',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./read-more.component.scss']
 })
 export class ReadMoreComponent {
-
+  @Input() open : boolean = false
+  @Input() TitleReadMe : string = ''
+  @Input() TextDown : string = ''
 }
