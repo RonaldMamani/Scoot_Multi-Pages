@@ -19,6 +19,8 @@ import { BenefiesAboutComponent } from './components/benefies-about/benefies-abo
 import { BenenfieNumerationComponent } from './components/benenfie-numeration/benenfie-numeration.component';
 import { FAQsComponent } from './components/faqs/faqs.component';
 import { ReadMoreComponent } from './components/read-more/read-more.component';
+import { JobDetailComponent } from './components/job-detail/job-detail.component';
+import { BenefiesCareersComponent } from './components/benefies-careers/benefies-careers.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { ReadMoreComponent } from './components/read-more/read-more.component';
     BenefiesAboutComponent,
     BenenfieNumerationComponent,
     FAQsComponent,
-    ReadMoreComponent
+    ReadMoreComponent,
+    JobDetailComponent,
+    BenefiesCareersComponent
   ],
   imports: [
     BrowserModule,

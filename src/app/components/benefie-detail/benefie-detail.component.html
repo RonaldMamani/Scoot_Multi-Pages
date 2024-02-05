@@ -5,12 +5,14 @@
             src={{imageUrl}} 
             alt={{DescritionImage}}>
     </div>
-    <div class="flex flex-col gap-8 text-center">
+    <div class="flex flex-col gap-8 text-center items-center">
         <h6 class="text-[#495567] font-['Space Mono'] text-[38px] font-bold tracking-[1.5px]">{{TitleBenefie}}</h6>
-        <p class="text-[#939CAA] font-['Lexend Deca']">{{Descrition}}</p>
+        <div class="flex justify-center w-[311px] text-center">
+            <p class="text-[#939CAA] font-['Lexend Deca']">{{Descrition}}</p>
+        </div>
         <div *ngIf="ThereButton">
             <app-button 
-                content="Learn More"
+                content={{ContentButton}}
             />
         </div>
     </div>
