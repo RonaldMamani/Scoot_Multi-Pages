@@ -21,6 +21,7 @@ import { FAQsComponent } from './components/faqs/faqs.component';
 import { ReadMoreComponent } from './components/read-more/read-more.component';
 import { JobDetailComponent } from './components/job-detail/job-detail.component';
 import { BenefiesCareersComponent } from './components/benefies-careers/benefies-careers.component';
+import { JobAnnouncementsComponent } from './components/job-announcements/job-announcements.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { BenefiesCareersComponent } from './components/benefies-careers/benefies
     FAQsComponent,
     ReadMoreComponent,
     JobDetailComponent,
-    BenefiesCareersComponent
+    BenefiesCareersComponent,
+    JobAnnouncementsComponent
   ],
   imports: [
     BrowserModule,
