@@ -22,6 +22,8 @@ import { ReadMoreComponent } from './components/read-more/read-more.component';
 import { JobDetailComponent } from './components/job-detail/job-detail.component';
 import { BenefiesCareersComponent } from './components/benefies-careers/benefies-careers.component';
 import { JobAnnouncementsComponent } from './components/job-announcements/job-announcements.component';
+import { WorldMapComponent } from './components/world-map/world-map.component';
+import { LocalWorldComponent } from './components/local-world/local-world.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,9 @@ import { JobAnnouncementsComponent } from './components/job-announcements/job-an
     ReadMoreComponent,
     JobDetailComponent,
     BenefiesCareersComponent,
-    JobAnnouncementsComponent
+    JobAnnouncementsComponent,
+    WorldMapComponent,
+    LocalWorldComponent
   ],
   imports: [
     BrowserModule,
