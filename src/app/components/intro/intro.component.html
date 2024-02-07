@@ -1,10 +1,23 @@
 <section class="
-    bg-[url(./assets/images/home-hero-mobile.jpg)] bg-cover bg-center h-[calc(100vh-74px)] relative
+    bg-[url(./assets/images/home-hero-mobile.jpg)] bg-no-repeat bg-cover bg-center h-[calc(100vh-74px)] relative
+    md:bg-[url(./assets/images/home-hero-tablet.jpg)]  md:h-[calc(100vh-120px)]
     ">
-    <div class="px-[66px] pt-[115px] pb-44 flex flex-col gap-6 text-center">
-        <h3 class=" text-white font-['Space Mono font-bold text-[40px] tracking-[-1.8px]']">Scooter sharing made simple</h3>
+    <div class="
+        px-[66px] pt-[115px] pb-44 flex flex-col gap-6 text-center
+        md:px-28
+        ">
+        <h3 class=" 
+            text-white font-['Space Mono'] font-bold text-[40px] tracking-[-1.8px]
+            md:text-[60px] md:tracking-[-2.5px]
+            ">Scooter sharing made simple</h3>
         <p class=" text-white font-['Lexend Deca']">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
         <app-button content="Get Scootin" class="pt-2" />
     </div>
-    <div class="absolute bottom-10 bg-[url(./assets/patterns/arrow.svg)] bg-no-repeat w-[400px] h-[150px]"></div>
+    <div class="
+        absolute bottom-10 bg-[url('./assets/patterns/right-arrow.svg')] bg-right w-[150px] h-[150px]
+        md:w-[350px]
+        "></div>
+    <div class="
+        max-md:hidden absolute bottom-10 right-0 bg-[url('./assets/patterns/white-circles.svg')] bg-no-repeat w-[200px] h-[65px]
+        "></div>
 </section>
