@@ -1,8 +1,11 @@
-<section class="px-8 py-32 flex flex-col gap-12 text-center">
+<section class="
+    px-8 py-32 flex flex-col gap-12 text-center
+    md:px-20
+    ">
     <h5 class="text-[#495567] font-['Space Mono'] text-4xl font-bold">FAQs</h5>
     <div class="flex flex-col gap-16 text-center">
         <h6 class="text-[#495567] font-['Space Mono'] text-2xl font-bold">How it works</h6>
-        <div class="px-8 flex flex-col gap-12">
+        <div class="px-8 flex flex-col gap-4">
             <app-read-more
                 [open]="readMeWorks1"
                 TitleReadMe="How do I download the app?"
@@ -28,7 +31,7 @@
     </div>
     <div class="flex flex-col gap-16 text-center">
         <h6 class="text-[#495567] font-['Space Mono'] text-2xl font-bold">Safe driving</h6>
-        <div class="px-8 flex flex-col gap-12">
+        <div class="px-8 flex flex-col gap-4">
             <app-read-more
                 [open]="readMeDriving1"
                 TitleReadMe="Should I wear a helmet?"
