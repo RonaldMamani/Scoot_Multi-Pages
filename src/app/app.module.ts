@@ -24,6 +24,7 @@ import { BenefiesCareersComponent } from './components/benefies-careers/benefies
 import { JobAnnouncementsComponent } from './components/job-announcements/job-announcements.component';
 import { WorldMapComponent } from './components/world-map/world-map.component';
 import { LocalWorldComponent } from './components/local-world/local-world.component';
+import { CityPointedOutComponent } from './components/city-pointed-out/city-pointed-out.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { LocalWorldComponent } from './components/local-world/local-world.compon
     BenefiesCareersComponent,
     JobAnnouncementsComponent,
     WorldMapComponent,
-    LocalWorldComponent
+    LocalWorldComponent,
+    CityPointedOutComponent
   ],
   imports: [
     BrowserModule,

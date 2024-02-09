@@ -1,6 +1,40 @@
-<section class="px-8 py-[72px] flex flex-col gap-16">
+<section class="
+    px-8 py-[72px] flex flex-col gap-16
+    md:px-10 md:py-36
+    ">
     <div class="flex flex-col gap-10">
-        <div class="bg-[url('./assets/images/world-map-mobile.png')] bg-cover bg-center h-[165px]"></div>
+        <div class="relative">
+            <div class="
+                bg-[url('./assets/images/world-map-mobile.png')] bg-cover bg-center h-[165px] relative
+                md:bg-[url('./assets/images/world-map-tablet.png')] md:h-[350px]
+                ">
+                <app-city-pointed-out 
+                    class="left-[85px] top-10"
+                    City="New York"
+                    borderWidth="50px"
+                    borderX="30px"
+                />
+                <app-city-pointed-out 
+                    class="left-[245px] top-4"
+                    City="London"
+                    borderWidth="50px"
+                    borderX="25px"
+                />
+                <app-city-pointed-out 
+                    class="right-4 top-14"
+                    City="Yokohama"
+                    borderWidth="50px"
+                    borderX="30px"
+                />
+                <app-city-pointed-out 
+                    class="right-20 top-[165px]"
+                    City="Jakarta"
+                    borderWidth="50px"
+                    borderX="25px"
+                />
+            </div>
+            <div class="absolute bg-black/10 w-full h-full top-0"></div>
+        </div>
         <div class="md:hidden flex flex-col gap-4">
             <app-local-world 
                 NameLocal="New York"
@@ -17,8 +51,11 @@
         </div>
     </div>
     <div class="px-2 flex flex-col items-center text-center gap-8">
-        <h6 class="text-[#495567] font-['Space Mono'] font-bold text-4xl">Your City Not Listed?</h6>
-        <div class="w-[310px]">
+        <h6 class="
+            text-[#495567] font-['Space Mono'] font-bold text-4xl
+            md:text-5xl md:px-28
+            ">Your City Not Listed?</h6>
+        <div class="w-[310px] md:w-[570px]">
             <p class="text-[#939CAA] font-['Lexend Deca']">If you’d like to see Scoot in your hometown, be sure to let us know. We track requests and plan launches 
                 based on demand. Feel free to message us by clicking the link or messaging us on social.</p>
         </div>
