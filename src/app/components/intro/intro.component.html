@@ -1,23 +1,35 @@
 <section class="
     bg-[url(./assets/images/home-hero-mobile.jpg)] bg-no-repeat bg-cover bg-center h-[calc(100vh-74px)] relative
     md:bg-[url(./assets/images/home-hero-tablet.jpg)]  md:h-[calc(100vh-120px)]
+    lg:bg-[url(./assets/images/home-hero-desktop.jpg)]
     ">
     <div class="
         px-[66px] pt-[115px] pb-44 flex flex-col gap-6 text-center
         md:px-28
+        lg:px-[165px] lg:pt-40 lg:text-start
         ">
         <h3 class=" 
             text-white font-['Space Mono'] font-bold text-[40px] tracking-[-1.8px]
             md:text-[60px] md:tracking-[-2.5px]
+            lg:text-[65px] lg:w-[500px] 
             ">Scooter sharing made simple</h3>
-        <p class=" text-white font-['Lexend Deca']">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
-        <app-button content="Get Scootin" class="pt-2" />
+        <div class="
+            flex flex-col gap-10
+            lg:w-[470px] lg:ml-24 lg:px-10 lg:py-10">
+            <p class=" text-white font-['Lexend Deca']">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
+            <app-button content="Get Scootin" class="pt-2" />
+        </div>
     </div>
     <div class="
-        absolute bottom-10 bg-[url('./assets/patterns/right-arrow.svg')] bg-right w-[150px] h-[150px]
+        absolute bottom-10 bg-[url('./assets/patterns/right-arrow.svg')] bg-right bg-no-repeat w-[150px] h-[150px]
         md:w-[350px]
+        lg:w-[450px] lg:bottom-[185px] lg:left-[750px] 
+        "></div>
+    <div class="
+        max-lg:hidden absolute bottom-80 left-0 bg-[url('./assets/patterns/line.svg')] bg-no-repeat h-[15px] w-[200px] 
         "></div>
     <div class="
         max-md:hidden absolute bottom-10 right-0 bg-[url('./assets/patterns/white-circles.svg')] bg-no-repeat w-[200px] h-[65px]
+        lg:bottom-48
         "></div>
 </section>

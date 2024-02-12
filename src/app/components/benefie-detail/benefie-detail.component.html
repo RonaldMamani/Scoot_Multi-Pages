@@ -1,5 +1,11 @@
-<div class="flex flex-col gap-14">
-    <div class="flex justify-center">
+<div class="
+    flex flex-col gap-14
+    lg:grid lg:grid-cols-2 lg:items-center
+    ">
+    <div class="
+        flex justify-center
+        {{OrderImage}}
+        ">
         <img 
             class="
                 rounded-full w-[310px] h-[310px]
@@ -9,14 +15,18 @@
             alt={{DescritionImage}}>
     </div>
     <div class="
-        flex flex-col gap-8 text-center items-center">
+        flex flex-col gap-8 text-center items-center
+        lg:text-start lg:items-start
+        ">
         <h6 class="
             text-[#495567] font-['Space Mono'] text-[38px] font-bold tracking-[1.5px]
-            md:px-20 md:text-5xl md:tracking-[2px] 
+            md:px-20 md:text-5xl md:tracking-[2px]
+            lg:px-0 lg:w-[410px] lg:text-5xl
             ">{{TitleBenefie}}</h6>
         <div class="
             flex justify-center w-[311px] text-center
             md:w-[570px]
+            lg:text-start lg:w-[445px]
             ">
             <p class="text-[#939CAA] font-['Lexend Deca']">{{Descrition}}</p>
         </div>

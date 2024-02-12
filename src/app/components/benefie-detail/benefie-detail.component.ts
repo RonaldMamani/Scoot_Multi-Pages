@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class BenefieDetailComponent {
   @Input() imageUrl : string = ''
   @Input() DescritionImage : string = ''
+  @Input() OrderImage : string = ''
   @Input() ThereButton : true | false = false
   @Input() ContentButton : string = ''
   @Input() TitleBenefie : string = ''
