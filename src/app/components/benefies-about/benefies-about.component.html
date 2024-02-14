@@ -1,57 +1,68 @@
 <section class="
     px-8 py-20 flex flex-col gap-[120px]
-    
+    lg:px-[165px]
     ">
     <div class="flex flex-col gap-[120px]">
         <div class="relative">
             <app-benefie-detail 
                 imageUrl="../../../assets/images/digital-era.jpg"
+                OrderImage="lg:order-2 lg:justify-end"
                 TitleBenefie="Mobility for the digital era"
                 Descrition="Getting around should be simple (and even fun!) for everyone. We embrace technology to provide 
                 low cost, smart access to scooters at your fingertips."
             />
             <div class="
-                absolute bg-[url('./assets/patterns/left-upward-arrow.svg')] bg-left -right-8 top-32 w-[375px] h-[150px]
+                absolute bg-[url('./assets/patterns/left-upward-arrow.svg')] bg-left bg-no-repeat -right-8 top-32 w-[375px] h-[150px]
                 md:top-64 md:w-[730px]
+                lg:bg-cover lg:-right-[165px] lg:w-[750px]
                 "></div>
         </div>
         <div class="relative">
             <app-benefie-detail 
                 imageUrl="../../../assets/images/better-living.jpg"
+                OrderImage="lg:justify-start"
                 TitleBenefie="Better urban living"
                 Descrition="We’re helping connect cities and bring people closer together. Our scooters are also fully-electric 
                 and we offset the minimal carbon footprint for each ride."
             />
-            <div class="absolute bg-[url('./assets/patterns/right-arrow.svg')] bg-right -left-8 top-0 w-[375px] h-[150px]"></div>
+            <div class="
+                absolute bg-[url('./assets/patterns/right-arrow.svg')] bg-right bg-no-repeat -left-8 top-0 w-[375px] h-[150px]
+                lg:-left-[165px] lg:w-[400px]
+                "></div>
         </div>
     </div>
     <div class="
         flex flex-col gap-14 text-center
         ">
         <h5 class="text-[#495567] font-['Space Mono'] text-4xl font-bold">Our Values</h5>
-        <app-benenfie-numeration
-            imageUrl="../../../assets/images/our-tech.jpg"
-            DescritionImage="Pessoa Usando Celular"
-            Number="01"
-            Title="Our Tech"
-            Descrition="We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric 
-            scooters are a joy to ride!"
-        />
-        <app-benenfie-numeration
-            imageUrl="../../../assets/images/our-integrity.jpg"
-            DescritionImage="Pessoa Usando Celular"
-            Number="02"
-            Title="Our integrity"
-            Descrition="We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every 
-            city we serve."
-        />
-        <app-benenfie-numeration
-            imageUrl="../../../assets/images/our-community.jpg"
-            DescritionImage="Pessoa Usando Celular"
-            Number="03"
-            Title="Our community"
-            Descrition="We uses local workforce with neighborhood organizations to greatly improve the overall growth and 
-            improve urban living."
-        />
+        <div class="
+            flex flex-col gap-14
+            lg:grid lg:grid-cols-3
+            ">
+            <app-benenfie-numeration
+                imageUrl="../../../assets/images/our-tech.jpg"
+                DescritionImage="Pessoa Usando Celular"
+                Number="01"
+                Title="Our Tech"
+                Descrition="We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric 
+                scooters are a joy to ride!"
+            />
+            <app-benenfie-numeration
+                imageUrl="../../../assets/images/our-integrity.jpg"
+                DescritionImage="Pessoa Usando Celular"
+                Number="02"
+                Title="Our integrity"
+                Descrition="We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every 
+                city we serve."
+            />
+            <app-benenfie-numeration
+                imageUrl="../../../assets/images/our-community.jpg"
+                DescritionImage="Pessoa Usando Celular"
+                Number="03"
+                Title="Our community"
+                Descrition="We uses local workforce with neighborhood organizations to greatly improve the overall growth and 
+                improve urban living."
+            />
+        </div>
     </div>
 </section>
