@@ -1,5 +1,12 @@
-<section class="px-8 py-[120px] flex flex-col gap-28">
-    <div class="flex flex-col gap-11">
+<section class="
+    px-8 py-[120px] flex flex-col gap-28
+    md:px-24 md:py-32
+    lg:px-40 lg:py-40
+    ">
+    <div class="
+        flex flex-col gap-11
+        lg:grid lg:grid-cols-3
+        ">
         <app-benefie-topic 
             imageUrl="../../../assets/icons/locate.svg"
             Benefie="Locate with app"
@@ -19,39 +26,60 @@
             off! Always lock bikes away from walkways and accessibility ramps."
         />
     </div>
-    <div class="flex flex-col gap-28">
+    <div class="
+        flex flex-col gap-28
+        lg:gap-[180px]
+        ">
         <div class="relative">
             <app-benefie-detail 
                 imageUrl="../../../assets/images/telemetry.jpg"
                 DescritionImage="Image de pessoa com Celular"
+                OrderImage="lg:order-2 lg:justify-end"
                 TitleBenefie="Easy to use riding telemetry"
                 Descrition="The Scoot app is available with riding telemetry. This means it can show you your average speed, 
                 how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app."
                 [ThereButton]= true
+                ContentButton="Learn More"
             />
-            <div class="absolute bg-[url('./assets/patterns/left-downward-arrow.svg')] bg-left -right-8 top-40 w-[350px] h-[150px]"></div>
+            <div class="
+                absolute bg-[url('./assets/patterns/left-downward-arrow.svg')] bg-no-repeat bg-left -right-8 top-40 w-[350px] h-[150px]
+                md:-right-24 md:top-72 md:w-[730px]
+                lg:-right-40
+                "></div>
         </div>
         <div class="relative">
             <app-benefie-detail 
                 imageUrl="../../../assets/images/near-you.jpg"
                 DescritionImage="Image de avenida de carros com arvores em volta"
+                OrderImage="lg:justify-start"
                 TitleBenefie="Coming to a city near you"
                 Descrition="Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if 
                 you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year."
                 [ThereButton]= true
+                ContentButton="Learn More"
             />
-            <div class="absolute bg-[url('./assets/patterns/right-arrow.svg')] bg-right -left-8 top-0 w-[300px] h-[150px]"></div>
+            <div class="
+                absolute bg-[url('./assets/patterns/right-arrow.svg')] bg-no-repeat bg-right -left-8 top-0 w-[300px] h-[150px]
+                md:-left-24 md:w-[360px]
+                lg:-left-40
+                "></div>
         </div>
         <div class="relative">
             <app-benefie-detail 
                 imageUrl="../../../assets/images/payments.jpg"
                 DescritionImage="Image de saque de dinheiro"
+                OrderImage="lg:order-2 lg:justify-end"
                 TitleBenefie="Zero hassle payments"
                 Descrition="Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also 
                 link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month."
                 [ThereButton]= true
+                ContentButton="Learn More"
             />
-            <div class="absolute bg-[url('./assets/patterns/left-downward-arrow.svg')] bg-left -right-8 top-0 w-[275px] h-[150px]"></div>
+            <div class="
+                absolute bg-[url('./assets/patterns/left-downward-arrow.svg')] bg-no-repeat bg-left -right-8 top-0 w-[275px] h-[150px]
+                md:-right-24 md:top-20 md:w-[360px]
+                lg:-right-40
+                "></div>
         </div>
     </div>
 </section>

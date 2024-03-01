@@ -19,6 +19,12 @@ import { BenefiesAboutComponent } from './components/benefies-about/benefies-abo
 import { BenenfieNumerationComponent } from './components/benenfie-numeration/benenfie-numeration.component';
 import { FAQsComponent } from './components/faqs/faqs.component';
 import { ReadMoreComponent } from './components/read-more/read-more.component';
+import { JobDetailComponent } from './components/job-detail/job-detail.component';
+import { BenefiesCareersComponent } from './components/benefies-careers/benefies-careers.component';
+import { JobAnnouncementsComponent } from './components/job-announcements/job-announcements.component';
+import { WorldMapComponent } from './components/world-map/world-map.component';
+import { LocalWorldComponent } from './components/local-world/local-world.component';
+import { CityPointedOutComponent } from './components/city-pointed-out/city-pointed-out.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +44,13 @@ import { ReadMoreComponent } from './components/read-more/read-more.component';
     BenefiesAboutComponent,
     BenenfieNumerationComponent,
     FAQsComponent,
-    ReadMoreComponent
+    ReadMoreComponent,
+    JobDetailComponent,
+    BenefiesCareersComponent,
+    JobAnnouncementsComponent,
+    WorldMapComponent,
+    LocalWorldComponent,
+    CityPointedOutComponent
   ],
   imports: [
     BrowserModule,

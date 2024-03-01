@@ -1,8 +1,24 @@
-<section class="px-8 py-32 flex flex-col gap-12 text-center">
-    <h5 class="text-[#495567] font-['Space Mono'] text-4xl font-bold">FAQs</h5>
-    <div class="flex flex-col gap-16 text-center">
-        <h6 class="text-[#495567] font-['Space Mono'] text-2xl font-bold">How it works</h6>
-        <div class="px-8 flex flex-col gap-12">
+<section class="
+    px-8 py-32 flex flex-col gap-12 text-center
+    md:px-20
+    lg:px-[165px] lg:py-36 lg:gap-24
+    ">
+    <h5 class="
+        text-[#495567] font-['Space Mono'] text-4xl font-bold
+        lg:text-5xl
+        ">FAQs</h5>
+    <div class="
+        flex flex-col gap-16 text-center
+        lg:grid lg:grid-cols-3 lg:text-start
+        ">
+        <h6 class="
+            text-[#495567] font-['Space Mono'] text-2xl font-bold
+            lg:text-5xl
+            ">How it works</h6>
+        <div class="
+            px-8 flex flex-col gap-4
+            lg:col-span-2
+            ">
             <app-read-more
                 [open]="readMeWorks1"
                 TitleReadMe="How do I download the app?"
@@ -26,9 +42,18 @@
             />
         </div>
     </div>
-    <div class="flex flex-col gap-16 text-center">
-        <h6 class="text-[#495567] font-['Space Mono'] text-2xl font-bold">Safe driving</h6>
-        <div class="px-8 flex flex-col gap-12">
+    <div class="
+        flex flex-col gap-16 text-center
+        lg:grid lg:grid-cols-3 lg:text-start
+        ">
+        <h6 class="
+            text-[#495567] font-['Space Mono'] text-2xl font-bold
+            lg:text-5xl
+            ">Safe driving</h6>
+        <div class="
+            px-8 flex flex-col gap-4
+            lg:col-span-2
+            ">
             <app-read-more
                 [open]="readMeDriving1"
                 TitleReadMe="Should I wear a helmet?"
@@ -41,7 +66,7 @@
                 TitleReadMe="How about the rules & regulations?"
                 TextDown="To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even 
                 simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed 
-                to the correct page."
+                to the correct page"
             />
             <app-read-more
                 [open]="readMeDriving3"

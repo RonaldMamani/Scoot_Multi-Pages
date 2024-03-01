@@ -1,27 +1,46 @@
-# Scott
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
+# Scoot
 
-## Development server
+O projeto do site Scoot é simulando uma pagina de uma empresa que possui um aplicativo, a pagina possui varias paginas sobre a empresa onde aborda varios topicos sobre a empresa como os trabalhos, sobre e a localização.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Imagem
+![Scoot](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_900/Screenshots/bc2lq1ozi8mfmhwgzzan.jpg)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Instalação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Clone o repositorio localmente
 
-## Running unit tests
+```bash
+  git clone https://github.com/RonaldMamani/Scoot_Multi-Pages.git
+  cd Scoot_Multi-Pages
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Instale as despendencias do projeto e inicie o servidor
 
-## Running end-to-end tests
+```bash
+  npm install 
+  ng serve
+```
+    
+## Aprendizados
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+O projeto da pagina Scoot foi mais um aprendizado sobre desenvolvimento de Angular com Router com abordagem de single page application, onde foi elaborado a navegação por rotas dentro do angular, existe uma serie de componentes reutilizaveis dentro do projeto onde facilitou o aprendizado e ajudou a solidificar o conhecimento em angular.
+## Stack utilizada
 
-## Further help
+**Front-end:** Angular, Typescript, Router, TailwindCSS
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Funcionalidades
+
+- Navegação em Single Page Application
+- Responsividade para telas Mobile, Table e Desktop
+
+
+
+## Autores
+
+- [@RonaldMamani](https://github.com/RonaldMamani)
+
